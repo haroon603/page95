@@ -1,3 +1,9 @@
+.fs-12{
+    font-size: 12px;
+}
+
+
+
 .general-form {
     padding: 5px;
     width: 100%;
@@ -159,7 +165,7 @@ a{
   }
   
   .slider {
-    background-color: #ccc;
+    background-color: #EDEDED;
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -170,7 +176,7 @@ a{
   }
   
   .slider:before {
-    background-color: #47CA5B;
+    background-color: #BEBEBE;
     bottom: 1px;
     top: -0.9px;
     content: "";
@@ -185,8 +191,9 @@ a{
   input:checked + .slider {
     background-color: #DAFFDF;
   }
-  
+
   input:checked + .slider:before {
+    background-color: #47CA5B;
     transform: translateX(13px);
   }
   
@@ -410,4 +417,37 @@ a{
 
 ul li{
     list-style: none;
+}
+
+
+
+
+@media screen and (max-width: 1065px) {
+    
+    .fs-12{
+        font-size: 10px !important;
+    }
+}
+
+
+@media screen and (max-width: 925px) {
+    
+    .fs-12{
+        font-size: 09px !important;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    
+    .fs-12{
+        font-size: 09px !important;
+    }
+
+    .change-w{
+        width: 60% !important;
+    }
+
+    .change-w1{
+        width: 38% !important;
+    }
 }
